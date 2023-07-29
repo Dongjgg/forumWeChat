@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/edit/edit",
+    "pages/self/self",
+    "uni_modules/uni-id-pages/pages/userinfo/deactivate/deactivate",
+    "uni_modules/uni-id-pages/pages/userinfo/userinfo",
+    "uni_modules/uni-id-pages/pages/userinfo/bind-mobile/bind-mobile",
+    "uni_modules/uni-id-pages/pages/userinfo/cropImage/cropImage",
+    "uni_modules/uni-id-pages/pages/login/login-withoutpwd",
+    "uni_modules/uni-id-pages/pages/login/login-withpwd",
+    "uni_modules/uni-id-pages/pages/login/login-smscode",
+    "uni_modules/uni-id-pages/pages/register/register",
+    "uni_modules/uni-id-pages/pages/register/register-by-email",
+    "uni_modules/uni-id-pages/pages/retrieve/retrieve",
+    "uni_modules/uni-id-pages/pages/retrieve/retrieve-by-email",
+    "uni_modules/uni-id-pages/pages/common/webview/webview",
+    "uni_modules/uni-id-pages/pages/userinfo/change_pwd/change_pwd",
+    "uni_modules/uni-id-pages/pages/register/register-admin",
+    "pages/detail/detail",
+    "pages/quanzi_article/list",
+    "pages/quanzi_like/list",
+    "uni_modules/uni-feedback/pages/opendb-feedback/opendb-feedback",
+    "uni_modules/uni-feedback/pages/opendb-feedback/edit",
+    "uni_modules/uni-feedback/pages/opendb-feedback/list",
+    "uni_modules/uni-feedback/pages/opendb-feedback/detail",
+    "pages/reply/reply"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Dj的圈子",
+    "navigationBarBackgroundColor": "#0199FE",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#888",
+    "selectedColor": "#0199FE",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "圈子",
+        "iconPath": "static/images/quanzi.png",
+        "selectedIconPath": "static/images/quanzi-fill.png"
+      },
+      {
+        "pagePath": "pages/self/self",
+        "text": "我的",
+        "iconPath": "static/images/user.png",
+        "selectedIconPath": "static/images/user-fill.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
