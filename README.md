@@ -1,7 +1,8 @@
 # forumWeChat
 微信小程序基于uniapp+unicloud
 
-首页：![首页](./README.assets/首页.jpg)
+首页：
+![首页](./README.assets/首页.jpg)
 
 个人中心：
 
